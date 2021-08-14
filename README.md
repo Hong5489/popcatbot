@@ -22,6 +22,6 @@ git clone https://github.com/Hong5489/popcatbot.git
 
 ![image](image1.png)  
 
-7. Replace `captcha_token` and `token` in the `popcat.py` script
+7. Replace `captcha_token` and `token` in the [popcat.py](popcat.py) script
 8. Run the script by command `python popcat.py` or `python3 popcat.py`
 9. Enjoy =)
