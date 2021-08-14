@@ -36,6 +36,8 @@ while(1):
     response = requests.post('https://stats.popcat.click/pop', headers=headers, params=params)
     if response.status_code == 201:
         total += pop_count
-
+    else:
+        print("Error: "+response.text)
     print("Total poped: "+str(total))
+    # Note minimum time is 30s per IP address
     time.sleep(30)
