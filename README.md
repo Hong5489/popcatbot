@@ -10,6 +10,7 @@ Popcat for lazy people
 ## Instal
 ```
 pip install requests
+git clone https://github.com/Hong5489/popcatbot.git
 ```
 ## How to Use
 1. Goto https://popcat.click/
